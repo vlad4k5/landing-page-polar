@@ -1,0 +1,134 @@
+@import "../../assets/scss/mixins";
+
+.headerContainer {
+  background: #f2ceda4d;
+  height: 862px;
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-left: 245px;
+  }
+
+  nav {
+    margin-left: 265px;
+    display: flex;
+    gap: 40px;
+    white-space: nowrap;
+
+    button {
+      cursor: pointer;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      font-size: 14px;
+      line-height: 16px;
+      color: #150101;
+      opacity: 0.6;
+      transition: 0.3s;
+
+      &:hover {
+        color: #d23166;
+        opacity: 1;
+      }
+    }
+
+    .active {
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 18px;
+      color: #d23166;
+      opacity: 1;
+    }
+  }
+
+  .buyNowButton {
+    margin-left: 172px;
+    @include purpleButton;
+  }
+}
+
+.headerContent {
+  min-width: 1600px;
+
+  .infoBlock {
+    margin: 196px 0 0 254px;
+
+    .subtitle {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.1em;
+
+      color: #0f0101;
+    }
+
+    h1 {
+      margin: 6px 0 35px 0;
+      width: 665px;
+      font-family: "Fredoka One";
+      font-size: 57.33px;
+      line-height: 120.5%;
+      color: #0f0101;
+      opacity: 0.9;
+
+      span {
+        font-family: "Fredoka One";
+        color: #d23166;
+      }
+    }
+
+    p {
+      width: 523px;
+      font-family: "Hind Madurai";
+      font-size: 18px;
+      line-height: 27px;
+      color: #0f0101;
+      opacity: 0.6;
+    }
+
+    button {
+      @include purpleButton;
+    }
+  }
+}
+
+.icecreamImg {
+  position: absolute;
+  right: 114px;
+  top: 126px;
+  z-index: 2;
+}
+
+.milkImg {
+  position: absolute;
+  right: 0;
+  top: 250px;
+  z-index: 3;
+}
+
+.ellipse {
+  position: absolute;
+  width: 365px;
+  height: 353px;
+  right: 230px;
+  top: 411px;
+  background: #d23166;
+  border-radius: 50%;
+  opacity: 0.1;
+}
+
+.ellipseShadow {
+  position: absolute;
+  width: 173px;
+  height: 15px;
+  right: 325px;
+  top: 785px;
+
+  background: #edb5c7;
+  filter: blur(20px);
+}

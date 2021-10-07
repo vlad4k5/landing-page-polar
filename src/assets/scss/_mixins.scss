@@ -1,0 +1,20 @@
+@mixin purpleButton {
+  width: 165px;
+  height: 49px;
+  border: none;
+  cursor: pointer;
+
+  background: #d23166;
+  border-radius: 5px;
+
+  font-family: "Hind Madurai";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fafafa;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: darken(#d23166, 5%);
+  }
+}
