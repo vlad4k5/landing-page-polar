@@ -83,9 +83,9 @@ const OurProduct = () => {
 
         <div className={s.slider}>
           <img src={leftArrow} className={s.inactive} alt="Left" />
-          <img src={maleImg} className={s.photo} />
-          <img src={femaleImg} className={`${s.photo} ${s.activePhoto}`} />
-          <img src={femaleImg2} className={s.photo} />
+          <img src={maleImg} className={s.photo} alt="Avatar"/>
+          <img src={femaleImg} className={`${s.photo} ${s.activePhoto}`} alt="Avatar" />
+          <img src={femaleImg2} className={s.photo} alt="Avatar" />
           <img src={rightArrow} alt="Right" />
         </div>
 
