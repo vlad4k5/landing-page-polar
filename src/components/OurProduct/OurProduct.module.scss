@@ -145,7 +145,12 @@
         border-radius: 50%;
       }
 
-      .inactive {
+      .activePhoto {
+        border: 1px solid #d64374;
+        box-sizing: border-box;
+      }
+
+      .inactiveArrow {
         opacity: 0.5;
       }
     }
