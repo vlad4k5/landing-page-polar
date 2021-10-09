@@ -1,0 +1,34 @@
+@import "../../assets//scss/mixins";
+
+.contact {
+  padding: 191px 0 231px 0;
+  text-align: center;
+
+  h2 {
+    width: 520px;
+    margin: 0 auto 28px auto;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+  }
+
+  input {
+    height: 74px;
+    box-sizing: border-box;
+    width: 512px;
+    padding: 30px;
+    outline: none;
+    border: none;
+    background: #fafafa;
+    border-radius: 5px;
+  }
+
+  button {
+    @include purpleButton;
+    height: 74px;
+    width: 134px;
+    position: relative;
+    left: -12px;
+    top: 0;
+  }
+}
