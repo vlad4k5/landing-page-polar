@@ -1,0 +1,41 @@
+.benefitsContainer {
+  padding: 100px 231px 100px 252px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.benefitsBlock {
+  padding-top: 33px;
+  width: 250px;
+  height: 200px;
+  box-sizing: border-box;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 7px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    margin: 23px 0 9px 0;
+    font-family: "Hind Madurai";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  p {
+    margin: 0;
+    width: 198px;
+    font-family: "Hind Madurai";
+    text-align: center;
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.6;
+  }
+
+  .deliveryH3 {
+    margin-top: 15px;
+  }
+}

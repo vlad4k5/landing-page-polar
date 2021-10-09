@@ -1,0 +1,50 @@
+@import "../../assets/scss/mixins";
+
+.brownSugarContainer {
+  background: #f8edf0;
+  padding: 141px 0 146px 253px;
+  position: relative;
+}
+
+.infoBlock {
+  color: #150101;
+
+  h2 {
+    width: 349px;
+    margin: 0;
+    font-family: "Hind Madurai";
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+  }
+
+  p {
+    margin: 16px 0 35px 0;
+    width: 442px;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
+  }
+
+  button {
+    @include purpleButton;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+}
+
+.brownSugarImg {
+  position: absolute;
+  top: -75px;
+  right: 177px;
+}
+
+.icecreamShadow {
+  position: absolute;
+  width: 283px;
+  height: 27px;
+  left: 958px;
+  bottom: 75px;
+  background: #edb5c7;
+  filter: blur(20px);
+}
