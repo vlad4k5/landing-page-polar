@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/landing-page-polar/static/css/main.2028c3c9.chunk.css",
+    "main.js": "/landing-page-polar/static/js/main.06992182.chunk.js",
+    "main.js.map": "/landing-page-polar/static/js/main.06992182.chunk.js.map",
+    "runtime-main.js": "/landing-page-polar/static/js/runtime-main.cb91e695.js",
+    "runtime-main.js.map": "/landing-page-polar/static/js/runtime-main.cb91e695.js.map",
+    "static/js/2.de537a63.chunk.js": "/landing-page-polar/static/js/2.de537a63.chunk.js",
+    "static/js/2.de537a63.chunk.js.map": "/landing-page-polar/static/js/2.de537a63.chunk.js.map",
+    "index.html": "/landing-page-polar/index.html",
+    "static/css/main.2028c3c9.chunk.css.map": "/landing-page-polar/static/css/main.2028c3c9.chunk.css.map",
+    "static/js/2.de537a63.chunk.js.LICENSE.txt": "/landing-page-polar/static/js/2.de537a63.chunk.js.LICENSE.txt",
+    "static/media/addToCart.ff0f7996.svg": "/landing-page-polar/static/media/addToCart.ff0f7996.svg",
+    "static/media/brownIcecream.a3170301.png": "/landing-page-polar/static/media/brownIcecream.a3170301.png",
+    "static/media/brownSugar.4bc43763.png": "/landing-page-polar/static/media/brownSugar.4bc43763.png",
+    "static/media/cocktail.59748286.svg": "/landing-page-polar/static/media/cocktail.59748286.svg",
+    "static/media/delivery.0f8e94f9.svg": "/landing-page-polar/static/media/delivery.0f8e94f9.svg",
+    "static/media/greenIcecream.89001de4.png": "/landing-page-polar/static/media/greenIcecream.89001de4.png",
+    "static/media/headerIcecream.cb7ee4e9.png": "/landing-page-polar/static/media/headerIcecream.cb7ee4e9.png",
+    "static/media/leftArrow.ab85531c.svg": "/landing-page-polar/static/media/leftArrow.ab85531c.svg",
+    "static/media/leftQuote.daba7014.svg": "/landing-page-polar/static/media/leftQuote.daba7014.svg",
+    "static/media/milk.c60aa068.png": "/landing-page-polar/static/media/milk.c60aa068.png",
+    "static/media/money.a417b8d5.svg": "/landing-page-polar/static/media/money.a417b8d5.svg",
+    "static/media/orderYourFood.84e3244c.svg": "/landing-page-polar/static/media/orderYourFood.84e3244c.svg",
+    "static/media/phone.5e183023.png": "/landing-page-polar/static/media/phone.5e183023.png",
+    "static/media/rightArrow.8bc951b5.svg": "/landing-page-polar/static/media/rightArrow.8bc951b5.svg",
+    "static/media/rightQuote.a5b110f0.svg": "/landing-page-polar/static/media/rightQuote.a5b110f0.svg",
+    "static/media/selectYourFood.d18d9b95.svg": "/landing-page-polar/static/media/selectYourFood.d18d9b95.svg",
+    "static/media/threeIcecreams.ad232c9a.png": "/landing-page-polar/static/media/threeIcecreams.ad232c9a.png",
+    "static/media/vehicle.f5ee11bf.svg": "/landing-page-polar/static/media/vehicle.f5ee11bf.svg",
+    "static/media/yellowIcecream.9893b86a.png": "/landing-page-polar/static/media/yellowIcecream.9893b86a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb91e695.js",
+    "static/js/2.de537a63.chunk.js",
+    "static/css/main.2028c3c9.chunk.css",
+    "static/js/main.06992182.chunk.js"
+  ]
+}
