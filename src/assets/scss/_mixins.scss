@@ -18,3 +18,37 @@
     background-color: darken(#d23166, 5%);
   }
 }
+
+@mixin transparentButton($color) {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgb(0, 0, 0, 0.6);
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: 0.25s;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -4px;
+    left: 0%;
+    background-color: $color;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  &:hover {
+    color: #000;
+  }
+
+  &:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
